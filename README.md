@@ -1,6 +1,12 @@
 Minimal Node.js Docker Images (18MB, or 6.7MB compressed)
 ---------------------------------------------------------
 
+This is a fork of `mhart/alpine-node` using the `alpine-kubernetes` base image.
+Currently only built for `v4.4.4` Please see the
+[`alpine-kubernetes`](https://github.com/janeczku/docker-alpine-kubernetes) repo
+for more info on how to use `s6` if you care to use that as the built in process
+runner.
+
 Versions v6.2.0, v5.11.1, v4.4.4, v0.12.14, v0.10.45, and io.js –
 built on [Alpine Linux](https://alpinelinux.org/).
 
